@@ -6,7 +6,7 @@ NullSection is an Anti-Reversing tool that applies a technique that overwrites t
 
 ```
 git clone https://github.com/MatheuZSecurity/NullSection
-cd nullsection
+cd NullSection
 gcc nullsection.c -o nullsection
 ./nullsection
 ```
