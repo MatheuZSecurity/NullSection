@@ -55,10 +55,6 @@ void overwrite(const char *file_path) {
 
         fseek(elf_file, addr, SEEK_SET);
         fputc(0x00, elf_file);
-        fputc(0x00, elf_file);
-        fputc(0x00, elf_file);
-        fputc(0x00, elf_file);
-
         fclose(elf_file);
     }
 }
